@@ -1,0 +1,11 @@
+$styles: default, auto, none, pointer, all-scroll, cell, col-resize, copy, crosshair, e-resize, ew-resize, grab, grabbing, help, row-resize, s-resize, se-resize, se-resize, sw-resize, text, w-resize, move, not-allowed, progress, wait, zoom-in, zoom-out;
+
+@each $style in $styles {
+    .°cursor-#{$style} {
+        cursor: $style !important;
+    }
+
+    .°cs-#{$style} {
+        cursor: $style !important;
+    }
+}

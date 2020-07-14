@@ -1,0 +1,9 @@
+@for $i from 0 through 200 {
+    .°mt-#{$i} {
+        margin-top: $i * 5 + px !important;
+    }
+}
+
+.°mt-auto {
+    margin-top: auto !important;
+}

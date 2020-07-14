@@ -1,0 +1,41 @@
+.°bold {
+    font-weight: bold !important;
+}
+
+.°italic {
+    font-style: italic !important;
+}
+
+.°underline {
+    text-decoration: underline !important;
+}
+
+.°no-decoration {
+    text-decoration: none;
+}
+
+@for $i from 1 through 10 {
+    .°spaced-letters-#{$i} {
+        letter-spacing: $i * 5 + px !important;
+    }
+}
+
+.°center-text {
+    text-align: center !important;
+}
+
+.°right-text {
+    text-align: right !important;
+}
+
+.°left-text {
+    text-align: left !important;
+}
+
+.°dark {
+    color: #fff !important;
+}
+
+.°light {
+    color: #000 !important;
+}

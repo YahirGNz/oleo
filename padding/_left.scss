@@ -1,0 +1,9 @@
+@for $i from 0 through 200 {
+    .°pl-#{$i} {
+        padding-left: $i * 5 + px !important;
+    }
+}
+
+.°pl-auto {
+    padding-left: auto !important;
+}

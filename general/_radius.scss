@@ -1,0 +1,37 @@
+@for $i from 0 through 200 {
+    .°radius-#{$i} {
+        border-radius: $i * 5 + px !important;
+    }
+
+    .°radius-ee-#{$i} {
+        border-end-end-radius: $i * 5 + px !important;
+    }
+
+    .°radius-ss-#{$i} {
+        border-start-start-radius: $i * 5 + px !important;
+    }
+
+    .°radius-es-#{$i} {
+        border-end-start-radius: $i * 5 + px !important;
+    }
+
+    .°radius-se-#{$i} {
+        border-start-end-radius: $i * 5 + px !important;
+    }
+
+    .°radius-tl-#{$i} {
+        border-top-left-radius: $i * 5 + px !important;
+    }
+
+    .°radius-tr-#{$i} {
+        border-top-right-radius: $i * 5 + px !important;
+    }
+
+    .°radius-bl-#{$i} {
+        border-bottom-left-radius: $i * 5 + px !important;
+    }
+
+    .°radius-br-#{$i} {
+        border-bottom-right-radius: $i * 5 + px !important;
+    }
+}

@@ -1,0 +1,9 @@
+@for $i from 0 through 200 {
+    .°pb-#{$i} {
+        padding-bottom: $i * 5 + px !important;
+    }
+}
+
+.°pb-auto {
+    padding-bottom: auto !important;
+}

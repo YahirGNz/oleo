@@ -1,0 +1,12 @@
+@for $i from 0 through 200 {
+    .°ma-#{$i} {
+        margin-left: $i * 5 + px !important;
+        margin-right: $i * 5 + px !important;
+        margin-top: $i * 5 + px !important;
+        margin-bottom: $i * 5 + px !important;
+    }
+}
+
+.°ma-auto {
+    margin: auto !important;
+}

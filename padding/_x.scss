@@ -1,0 +1,11 @@
+@for $i from 0 through 200 {
+    .°px-#{$i} {
+        padding-left: $i * 5 + px !important;
+        padding-right: $i * 5 + px !important;
+    }
+}
+
+.°px-auto {
+    padding-left: auto !important;
+    padding-right: auto !important;
+}

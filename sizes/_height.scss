@@ -1,0 +1,9 @@
+@for $i from 0 through 200 {
+    .°h-#{$i} {
+        height: $i * 5 + px !important;
+    }
+}
+
+.°h-all-percent {
+    height: 100% !important;
+}

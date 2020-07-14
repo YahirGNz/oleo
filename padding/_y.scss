@@ -1,0 +1,11 @@
+@for $i from 0 through 200 {
+    .°py-#{$i} {
+        padding-top: $i * 5 + px !important;
+        padding-bottom: $i * 5 + px !important;
+    }
+}
+
+.°py-auto {
+    padding-top: auto !important;
+    padding-bottom: auto !important;
+}

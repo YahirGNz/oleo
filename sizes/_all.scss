@@ -1,0 +1,6 @@
+@for $i from 0 through 200 {
+    .°size-#{$i} {
+        height: $i * 5 + px !important;
+        width: $i * 5 + px !important;
+    }
+}

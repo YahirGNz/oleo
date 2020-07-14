@@ -1,0 +1,9 @@
+@for $i from 0 through 200 {
+    .°pt-#{$i} {
+        padding-top: $i * 5 + px !important;
+    }
+}
+
+.°pt-auto {
+    padding-top: auto !important;
+}

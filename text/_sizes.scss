@@ -1,0 +1,5 @@
+@for $i from 1 through 300 {
+    .°ft-#{$i} {
+        font-size: $i + px !important;
+    }
+}

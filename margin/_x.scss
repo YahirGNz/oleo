@@ -1,0 +1,11 @@
+@for $i from 0 through 200 {
+    .°mx-#{$i} {
+        margin-left: $i * 5 + px !important;
+        margin-right: $i * 5 + px !important;
+    }
+}
+
+.°mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

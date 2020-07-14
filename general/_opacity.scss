@@ -1,0 +1,13 @@
+@for $i from 0 through 9 {
+    .°op-#{$i} {
+        opacity: #{0}+'.'+$i !important;
+    }
+}
+
+.°op-10 {
+    opacity: 1 !important;
+}
+
+.°op-all {
+    opacity: 1 !important;
+}

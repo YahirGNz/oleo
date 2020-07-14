@@ -1,0 +1,62 @@
+.°p-relative {
+    position: relative !important;
+}
+
+.°p-fixed {
+    position: fixed !important;
+}
+
+.°p-absolute {
+    position: absolute !important;
+}
+
+@for $i from 0 through 200 {
+    .°top-#{$i} {
+        top: $i + px !important;
+    }
+    .°bottom-#{$i} {
+        bottom: $i + px !important;
+    }
+    .°left-#{$i} {
+        left: $i + px !important;
+    }
+    .°right-#{$i} {
+        right: $i + px !important;
+    }
+}
+
+.°d-block {
+    display: block !important;
+}
+
+.°d-inline {
+    display: inline !important;
+}
+
+.°d-inline-block {
+    display: inline-block !important;
+}
+
+.°d-flex {
+    display: flex !important;
+}
+
+.°d-inline-flex {
+    display: inline-flex !important;
+}
+
+.°d-table {
+    display: table !important;
+}
+
+.°d-table-cell {
+    display: table-cell !important;
+}
+
+.°d-table-row {
+    display: table-row !important;
+}
+
+.°d-none {
+    display: none !important;
+}

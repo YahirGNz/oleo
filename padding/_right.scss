@@ -1,0 +1,9 @@
+@for $i from 0 through 200 {
+    .°pr-#{$i} {
+        padding-right: $i * 5 + px !important;
+    }
+}
+
+.°pr-auto {
+    padding-right: auto !important;
+}

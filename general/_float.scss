@@ -1,0 +1,11 @@
+$directions: left, right, top, bottom;
+
+@each $direction in $directions {
+    .°float-#{$direction} {
+        float: $direction !important;
+    }
+
+    .°fl-#{$direction} {
+        float: $direction !important;
+    }
+}

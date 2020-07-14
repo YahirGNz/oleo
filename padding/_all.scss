@@ -1,0 +1,12 @@
+@for $i from 0 through 200 {
+    .°pa-#{$i} {
+        padding-left: $i * 5 + px !important;
+        padding-right: $i * 5 + px !important;
+        padding-top: $i * 5 + px !important;
+        padding-bottom: $i * 5 + px !important;
+    }
+}
+
+.°pa-auto {
+    padding: auto !important;
+}
