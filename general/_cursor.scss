@@ -9,3 +9,7 @@ $styles: default, auto, none, pointer, all-scroll, cell, col-resize, copy, cross
         cursor: $style !important;
     }
 }
+
+.°clickable {
+    cursor: pointer !important;
+}
